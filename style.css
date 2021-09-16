@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+section
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*//*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  position: relative;
+  width: 100%;
+  height:100vh;
+  display: flex;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}
+section .imgBx
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  position: relative;
+  width: 50%;
+  height: 100%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}
+section .imgBx::before/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{
+  content: '';/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  position: absolute;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  top: 0;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  left: 0;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  width: 100%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  height: 100%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  z-index: 1;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  mix-blend-mode: screen;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .imgBx img/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  position:absolute;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  left: 0;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  top: 0;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  width: 100%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  height: 100%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  object-fit: cover;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .contentBx/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  /*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  display: flex;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  justify-content: center;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  align-items: center;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  width: 50%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  height: 100%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .contentBx .formBx/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  width: 50%;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  /*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .contentBx .formBx h2/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  color: #607d8b;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  font-weight: 600;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  font-size: 1.5em;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  text-transform: uppercase;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  margin-bottom: 20px;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  border-bottom: 4px solid #ff4584;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .contentBx .formBx .inputBx/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  margin-bottom: 20px;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .contentBx .formBx .inputBx span/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  font-size: 16px;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  margin-bottom: 5px;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  display: inline-block;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  color: #607d8b;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  font-weight: 300;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  font-size: 16px;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  letter-spacing: 1px;/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+}/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+section .contentBx .formBx .inputBx input/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+{/*2021. Gweep Creative tarafından yapılmıştır | Youtube.com/GweepCreativeOfficial*/
+  width: 100%;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 400px;
+  border: 1px solid #607d8b;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #607d8b;
+  background: transparent;
+  border-radius: 30px;
+}
+section .contentBx .formBx .inputBx input[type="submit"]
+{
+  background: #ff4584;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+section .contentBx .formBx .inputBx input[type="submit"]:hover
+{
+  background: #f53677;
+}
+section .contentBx .formBx .remember
+{
+  margin-bottom: 10px;
+  color: #607d8b;
+  font-weight: 400;
+  font-size: 14px;
+}
+section .contentBx .formBx .inputBx p
+{
+  color: #607d8b;
+}
+section .contentBx .formBx .inputBx p a
+{
+  color: #ff4584;
+}
+section .contentBx .formBx h3
+{
+  color: #607d8b;
+  text-align: center;
+  margin:80px 0 10px;
+  font-weight: 500;
+}
+section .contentBx .formBx .sci
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .contentBx .formBx .sci li
+{
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #607d8b;
+  border-radius: 50%;
+  margin: 0 7px;
+  cursor: pointer;
+}
+section .contentBx .formBx .sci li:hover
+{
+  background: #ff4584;
+}
+section .contentBx .formBx .sci li i
+{
+/*  transform: scale(0.5); */
+  filter: invert(1);
+}
+@media (max-width: 768px)
+{
+  section .imgBx
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  section .contentBx 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  section .contentBx .formBx 
+  {
+  width: 100%;
+  padding: 40px;
+  background: rgb(255 255 255 / 0.9);
+  margin: 50px;
+  }
+  section .contentBx .formBx h3 
+  {
+    color: #607d8b;
+    text-align: center;
+    margin: 30px 0 10px;
+    font-weight: 500;
+  }
+}
